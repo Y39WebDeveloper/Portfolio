@@ -90,3 +90,43 @@ section.main .socialIcons a{
     font-size: 1.7em;
     padding-right: 30px;
 }
+section.services .titleSection{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+section.services .cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section.services .cards .card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: .5s ease;
+}
+section.services .cards .card:hover{
+    transform: scale(1.1);
+}
+section.services .cards .card .card-icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+section.services .cards .card .info{
+    text-align: center;
+}
+section.services .cards .card .info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
