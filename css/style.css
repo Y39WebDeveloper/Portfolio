@@ -90,7 +90,7 @@ section.main .socialIcons a{
     font-size: 1.7em;
     padding-right: 30px;
 }
-section.services .titleSection{
+.titleSection{
     display: flex;
     justify-content: center;
     color: #3a6cf4;
@@ -129,4 +129,56 @@ section.services .cards .card .info h3{
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+}
+section.projects{
+    background-color: #000016;
+}
+section.projects .cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section.projects .cards .card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: .5s ease;
+}
+section.projects .cards .card:hover{
+    transform: scale(1.1);
+}
+section.projects .cards .card .card-img img{
+    max-width: 100%;
+    transition: .5s ease;
+}
+section.projects .cards .card:hover .card-img img{
+    opacity: 0.8;
+}
+section.projects .cards .card .info{
+    padding: 1em;
+}
+section.projects .cards .card .info p{
+    font-size: 0.8em;
+    color: #000;
+}
+section.projects .cards .card .info strong{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+section.projects .cards .card .info strong a{
+    text-decoration: none;
+    color: #3a6cf4;
+    transition: .3s;
+}
+section.projects .cards .card .info strong a:hover{
+    color: #601cfc;
 }
