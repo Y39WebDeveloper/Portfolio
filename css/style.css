@@ -241,3 +241,40 @@ footer .socialIcons a{
     font-size: 1.3em;
     padding-right: 12px;
 }
+@media (max-width:1023px) {
+    header{
+        padding: 12px 20px;
+    }
+    header .navigation a{
+        padding-left: 10px;
+    }
+    .titleSection{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    section.main h2{
+        font-size: 1em;
+    }
+    section.main h3{
+        font-size: 1.6em;
+    }
+    section.services .cards,
+    section.projects .cards,
+    section.contact .cards{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width:641px) {
+    body{
+        font-size: 12px;
+    }
+}
+@media (max-width:300px) {
+    body{
+        font-size: 10px;
+    }
+}
