@@ -1,0 +1,26 @@
+.navbar{
+    padding: 27px 60px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.navbar .navbar-item a{
+    color: #000;
+    font-size: 1.25em;
+    font-weight: 500;
+    transition: .3s;
+}
+.navbar .navbar-item a:hover{
+    color: var(--primary-color);
+}
+@media (max-width: 575px){
+    .navbar{
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+    .navbar .navbar-item a{
+        font-size: 1em;
+    }
+}

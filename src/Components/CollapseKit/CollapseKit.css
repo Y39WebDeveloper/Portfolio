@@ -1,0 +1,61 @@
+.collapse-btn {
+    max-width: 20px;
+    height: 14px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 27px;
+    margin-left: calc(100% - 50px);
+}
+
+.collapse-btn span {
+    height: 2px;
+    width: 100%;
+    background-color: var(--dark-color);
+    position: absolute;
+    left: 0;
+    transition: .3s;
+}
+
+.collapse-btn span:first-child {
+    top: 0;
+}
+
+.collapse-btn span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.collapse-btn span:last-child {
+    bottom: 0;
+}
+
+.collapse-btn.active span:first-child {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.collapse-btn.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.collapse-btn.active span:last-child {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+
+@media (min-width: 576px) {
+    .collapse-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .collapse {
+        display: none;
+        width: 100%;
+    }
+
+    .collapse.show {
+        display: flex;
+    }
+}
