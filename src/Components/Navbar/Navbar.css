@@ -10,6 +10,7 @@
     font-weight: 500;
     transition: .3s;
 }
+.navbar .navbar-item a.active,
 .navbar .navbar-item a:hover{
     color: var(--primary-color);
 }

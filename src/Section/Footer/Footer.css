@@ -1,0 +1,22 @@
+footer{
+    padding: 55px 0;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 26px;
+}
+footer ul li svg{
+    width: 30px;
+    height: 30px;
+    color: var(--dark-color);
+    cursor: pointer;
+}
+footer p{
+    font-size: 0.88em;
+    color: var(--dark-color);
+    font-weight: 400;
+}

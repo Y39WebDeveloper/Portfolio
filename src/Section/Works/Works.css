@@ -1,0 +1,27 @@
+.works{
+    padding: 7px 148px 32px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.works h3 {
+    color: var(--dark-color);
+    font-size: 1.375em;
+    line-height: 2.7em;
+    margin: 15px 0 22px;
+    font-weight: 400;
+}
+
+@media (max-width: 991px) {
+    .works {
+        padding: 1px 100px 38px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 575px) {
+    .works {
+        padding: 100px 30px 58px;
+    }
+}

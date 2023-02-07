@@ -1,3 +1,5 @@
 export { default as Navbar } from './Navbar/Navbar'
 export { default as CollapseKit } from './CollapseKit/CollapseKit'
 export { default as Post } from './Post/Post'
+export { default as WorksElement } from './WorksElement/WorksElement'
+export { default as BlogElement } from './BlogElement/BlogElement'
