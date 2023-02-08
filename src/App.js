@@ -10,10 +10,9 @@ function App() {
       <Router>
         <Navbar />
           <Routes>
-            <Route index element={<Home/>} />
+            <Route path='/' element={<Home/>} />
             <Route path='/work' element={<Work/>} />
-            <Route path='/blog' element={<Blog/>} />  
-
+            <Route path='/blog' element={<Blog/>} />
             <Route path='/work-detail' element={<WorksDetails/>} />
           </Routes>
         <Footer />
