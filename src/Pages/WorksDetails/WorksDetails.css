@@ -1,0 +1,99 @@
+.work-detail {
+    margin-top: 50px;
+    padding: 0 236px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-detail .page-title {
+    font-weight: 700;
+    color: var(--dark-color);
+    font-size: 2.125em;
+    line-height: 1.46em;
+    margin-bottom: 30px;
+}
+.work-detail .work-info{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.47em;
+    color: var(--dark-color);
+    margin-bottom: 23px;
+}
+.work-detail .work-info span{
+    font-weight: 900;
+    font-size: .8em;
+    margin-right: 17px;
+    padding: 0 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.work-detail .work-text{
+    font-size: 1em;
+    color: var(--dark-color);
+    line-height: 1.468em;
+    font-weight: 400;
+    margin-bottom: 46px;
+}
+.work-detail .main-img{
+    max-width: 681px;
+    margin-bottom: 54px;
+}
+.work-detail .work-content h1{
+    font-size: 1.875em;
+    line-height: 2em;
+    font-weight: 500;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+}
+.work-detail .work-content h2{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--dark-color);
+    margin-bottom: 15px;
+}
+.work-detail .work-content p{
+    color: #000;
+    font-size: 1em;
+    line-height: 1.47em;
+    margin-bottom: 30px;
+}
+.work-detail .work-gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.work-detail .work-gallery img{
+    max-width: 681px;
+}
+
+@media (max-width:991px) {
+    .work-detail {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width:575px) {
+    .work-detail {
+        padding: 0 20px;
+    }
+    .work-detail .page-title{
+        font-size: 1.875em;
+    }
+    .work-detail .work-info{
+        font-size: 16px;
+    }
+    .work-detail .work-info span{
+        font-size: 1em;
+    }
+    .work-detail .work-content h1{
+        font-size: 26px;
+    }
+    .work-detail .work-content h2{
+        font-size: 20px;
+    }
+    .work-detail .work-gallery{
+        gap: 23px;
+    }
+}

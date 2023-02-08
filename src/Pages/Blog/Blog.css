@@ -2,7 +2,7 @@
     padding: 0 236px;
 }
 .blog .page-title{
-    font-weight: 700;
+    font-weight: 900;
     color: var(--dark-color);
     font-size: 2.75em;
     line-height: 1.363em;
@@ -16,5 +16,9 @@
 @media (max-width:575px) {
     .blog{
         padding: 0 20px;
+    }
+    .blog .page-title{
+        font-weight: 700;
+        font-size: 1.875em;
     }
 }
